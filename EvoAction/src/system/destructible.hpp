@@ -5,7 +5,7 @@
 
 /*!
     \class Destructible
-    \brief A class that implements the ability to be destructible
+    \brief Class that implements the ability to be destructible
 */
 class Destructible : public Collidable
 {

@@ -7,16 +7,15 @@
 # include <memory>
 
 /*!
-    \class List
-    \brief A class that implements a list container
+    \class EntityList
+    \brief Class that implements the list container for entities
 */
-template <class _Type>
-class List
+class EntityList
 {
 public:
 
-    using value_type            = _Type;
-    using value_pointer_type    = std::shared_ptr<_Type>;
+    using value_type            = Entity;
+    using value_pointer_type    = std::shared_ptr<value_type>;
     using list_type             = std::list<value_pointer_type>;
 
     using iterator_type         = typename list_type::iterator;
@@ -24,7 +23,7 @@ public:
 
 public:
 
-    virtual ~List() = default;
+    virtual ~EntityList() = default;
 
     iterator_type begin()
     {

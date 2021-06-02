@@ -7,7 +7,7 @@
 
 /*!
     \class Placeable
-    \brief A class that implements the ability to be placed in space
+    \brief Class that implements the ability to be placed in space
 */
 class Placeable : public Entity
 {

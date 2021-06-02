@@ -8,7 +8,7 @@
 
 /*!
     \class Actor
-    \brief A class that implements the actor
+    \brief Class that implements the actor
 */
 class Actor : public Destructible, public sf::Drawable
 {

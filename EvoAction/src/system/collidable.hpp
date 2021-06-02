@@ -3,6 +3,10 @@
 
 # include "placeable.hpp"
 
+/*!
+    \class Collidable
+    \brief Class that implements the ability to check collisions with objects
+*/
 class Collidable : public Placeable
 {
 public:

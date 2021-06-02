@@ -7,7 +7,7 @@ class EntityList;
 
 /*!
     \class Entity
-    \brief A class that implements the generic entity identifier store
+    \brief Class that implements the generic entity identifier store
 */
 class Entity
 {

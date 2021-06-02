@@ -9,7 +9,7 @@ inline EntityList entity_list;
 
 int main(int argc, char *argv[])
 {
-    sf::RenderWindow window(sf::VideoMode(window_width, window_height), "EvoAction");
+    sf::RenderWindow window(sf::VideoMode(window_width, window_height), "EvoAction", sf::Style::Titlebar | sf::Style::Close);
 
     std::srand(std::time(nullptr));
     for (size_t i = 0; i < 10; ++i)
@@ -23,7 +23,6 @@ int main(int argc, char *argv[])
     while (window.isOpen())
     {
         sf::Event event;
-
         while (window.pollEvent(event))
             if (event.type == sf::Event::Closed)
                 window.close();

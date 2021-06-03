@@ -1,7 +1,5 @@
 #include "entity_list.hpp"
 
-EntityList::EntityList(initializer_list list) : _list(list) { }
-
 EntityList::iterator_type EntityList::begin()
 {
     return _list.begin();
@@ -24,5 +22,5 @@ EntityList::const_iterator_type EntityList::end() const
 
 void EntityList::remove(const iterator_type &iterator)
 {
-    _list.erase(iterator);
+    on_remove(iterator), _list.erase(iterator);
 }

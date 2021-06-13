@@ -1,7 +1,7 @@
 ﻿#ifndef EVO_ACTION_SYSTEM_ENTITY_HPP
 #define EVO_ACTION_SYSTEM_ENTITY_HPP
 
-# include <cstdint>
+# include <cstddef>
 
 class EntityList;
 

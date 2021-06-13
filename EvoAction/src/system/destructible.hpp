@@ -2,6 +2,7 @@
 #define EVO_ACTION_SYSTEM_DESTRUCTIBLE_HPP
 
 # include "collidable.hpp"
+# include <cstdint>
 
 /*!
     \class Destructible
